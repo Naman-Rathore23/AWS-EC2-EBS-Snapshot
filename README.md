@@ -32,7 +32,7 @@ Learn how to create a snapshot of an EBS volume and restore it by creating a new
 
 - New volume from snapshot
 
-![](./AWS-EC2-EBS-Snapshot/Screenshots/Snapshot-Volume.png)
+![](./AWS-EC2-EBS-Snapshot/Screenshots/Snapshot-volume.png)
 
 - File verified on restored volume
 

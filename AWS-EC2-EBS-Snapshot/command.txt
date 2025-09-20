@@ -1,0 +1,14 @@
+# Format and mount EBS volume (if new)
+sudo mkfs -t ext4 /dev/xvdf
+sudo mkdir /mnt/ebs2
+sudo mount /dev/xvdf /mnt/ebs2
+
+# Create test file
+echo "Hello Snapshot" | sudo tee /mnt/ebs2/snap.txt
+
+# Verify file
+cat /mnt/ebs2/snap.txt
+
+# After restoring new volume from snapshot, mount again
+sudo mount /dev/xvdf /mnt/ebs3
+cat /mnt/ebs3/snap.txt

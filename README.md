@@ -1,4 +1,4 @@
-# Project 14: Create Snapshot of EBS Volume
+# Project 13: Create Snapshot of EBS Volume
 
 ## Objective
 Learn how to create a snapshot of an EBS volume and restore it by creating a new volume from the snapshot.
